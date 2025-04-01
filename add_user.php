@@ -17,7 +17,7 @@ if (!isset($_SESSION['employee_id']) || $_SESSION['is_admin'] != 1) {
 <head>
   <meta charset="UTF-8">
   <title>Add New User | NKEY System</title>
-  <link rel="icon" href="/img/nkey.ico">
+  <link rel="icon" href="./img/nkey.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>

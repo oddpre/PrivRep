@@ -27,7 +27,7 @@ $is_admin = $_SESSION["is_admin"];
   <title>Dashboard | NKEY System</title>
   <link rel="icon" href="/img/nkey.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=1.0.0">
+  <link rel="stylesheet" href="./css/style.css?v=1.0.0">
 </head>
 <body>
 
@@ -40,7 +40,7 @@ $is_admin = $_SESSION["is_admin"];
     </div>
     <div class="d-flex align-items-center">
       <span class="me-2"><?= htmlspecialchars($name) ?> (ID: <?= $employee_id ?>)</span>
-      <img src="/uploads/<?= $employee_id ?>.jpg" alt="Profile" width="40" height="40" class="rounded-circle">
+      <img src="./uploads/<?= $employee_id ?>.jpg" alt="Profile" width="40" height="40" class="rounded-circle">
     </div>
   </header>
 
